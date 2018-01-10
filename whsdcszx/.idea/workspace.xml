@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85f22486-0cb9-4837-9345-15160ec97e4f" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="db.sqlite3" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="db.sqlite3" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="main" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1862">
+              <caret line="101" column="9" lean-forward="false" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="91" column="5" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="5" />
+              <folding>
+                <element signature="e#24#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="business.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/business.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1539">
+              <caret line="81" column="117" lean-forward="false" selection-start-line="81" selection-start-column="117" selection-end-line="81" selection-end-column="117" />
+              <folding>
+                <element signature="e#149#228#0#HTML" expanded="false" />
+                <element signature="e#2931#2955#0#HTML" expanded="false" />
+                <element signature="e#3100#3158#0#HTML" expanded="false" />
+                <element signature="e#3175#3181#1#HTML" expanded="false" />
+                <element signature="e#3243#3266#0#HTML" expanded="false" />
+                <element signature="e#3303#3309#0#HTML" expanded="false" />
+                <element signature="e#3309#3315#0#HTML" expanded="false" />
+                <element signature="e#3315#3321#0#HTML" expanded="false" />
+                <element signature="e#3321#3327#0#HTML" expanded="false" />
+                <element signature="e#3392#3396#0#HTML" expanded="false" />
+                <element signature="e#3397#3401#0#HTML" expanded="false" />
+                <element signature="e#3406#3412#0#HTML" expanded="false" />
+                <element signature="e#3534#3585#0#HTML" expanded="false" />
+                <element signature="e#3735#3772#0#HTML" expanded="false" />
+                <element signature="e#4080#4117#0#HTML" expanded="false" />
+                <element signature="e#4157#4163#0#HTML" expanded="false" />
+                <element signature="e#4163#4169#0#HTML" expanded="false" />
+                <element signature="e#4169#4175#0#HTML" expanded="false" />
+                <element signature="e#4175#4181#0#HTML" expanded="false" />
+                <element signature="e#4227#4249#0#HTML" expanded="false" />
+                <element signature="e#4477#4514#0#HTML" expanded="false" />
+                <marker date="1515593412849" expanded="true" signature="3824:3872" ph="..." />
+                <marker date="1515593412849" expanded="true" signature="3873:4990" ph="..." />
+                <marker date="1515593412849" expanded="true" signature="3887:4045" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="91" lean-forward="false" selection-start-line="12" selection-start-column="91" selection-end-line="12" selection-end-column="91" />
+              <folding>
+                <element signature="e#438#495#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photolb_dolphin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common_static/js/photolb_dolphin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="54" column="65" lean-forward="false" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
+              <folding>
+                <marker date="1455863556089" expanded="true" signature="4846:4861" ph="..." />
+                <marker date="1455863556089" expanded="true" signature="5001:5018" ph="..." />
+                <marker date="1455863556089" expanded="true" signature="5367:5384" ph="..." />
+                <marker date="1455863556089" expanded="true" signature="5399:5414" ph="..." />
+                <marker date="1455863556089" expanded="true" signature="8101:8116" ph="..." />
+                <marker date="1455863556089" expanded="true" signature="8256:8273" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+              <folding>
+                <element signature="e#22#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news_2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/news_2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zizhi.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/zizhi.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="38" column="44" lean-forward="false" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="44" />
+              <folding>
+                <element signature="e#3527#3578#0#HTML" expanded="true" />
+                <element signature="e#3770#3822#0#HTML" expanded="true" />
+                <element signature="e#3908#3934#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/whsdcszx/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="23" column="72" lean-forward="false" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+              <folding>
+                <marker date="1515593024602" expanded="false" signature="4381:4396" ph="..." />
+                <marker date="1515593024602" expanded="false" signature="4597:4603" ph=" " />
+                <marker date="1515593024602" expanded="false" signature="4689:4704" ph="..." />
+                <marker date="1515593024602" expanded="false" signature="4706:4712" ph=" " />
+                <marker date="1515593024602" expanded="false" signature="4712:4718" ph=" " />
+                <marker date="1515593024602" expanded="false" signature="4718:4724" ph=" " />
+                <marker date="1515593024602" expanded="false" signature="4724:4730" ph=" " />
+                <marker date="1515593024602" expanded="false" signature="5008:5023" ph="..." />
+                <marker date="1515593024602" expanded="false" signature="5025:5031" ph=" " />
+                <marker date="1515593024602" expanded="false" signature="5031:5037" ph=" " />
+                <marker date="1515593024602" expanded="false" signature="5037:5043" ph=" " />
+                <marker date="1515593024602" expanded="false" signature="5043:5049" ph=" " />
+                <marker date="1515593024602" expanded="false" signature="5364:5379" ph="..." />
+                <marker date="1515593024602" expanded="false" signature="5381:5387" ph=" " />
+                <marker date="1515593024602" expanded="false" signature="5387:5393" ph=" " />
+                <marker date="1515593024602" expanded="false" signature="5393:5399" ph=" " />
+                <marker date="1515593024602" expanded="false" signature="5399:5405" ph=" " />
+                <marker date="1515593024602" expanded="false" signature="5908:5914" ph=" " />
+                <marker date="1515593024602" expanded="false" signature="6133:6148" ph="..." />
+                <marker date="1515593024602" expanded="false" signature="6397:6412" ph="..." />
+                <marker date="1515593024602" expanded="false" signature="6524:6555" ph="..." />
+                <marker date="1515593024602" expanded="false" signature="6658:6689" ph="..." />
+                <marker date="1515593024602" expanded="false" signature="6792:6823" ph="..." />
+                <marker date="1515593024602" expanded="false" signature="6926:6957" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>href=&quot;{{ profile.url }}&quot;</find>
+      <find>href=&quot;{{ profile.url }}</find>
+      <find>Contact.html</find>
+      <find>Contac.html</find>
+      <find>.html</find>
+      <find>business_area.html</find>
+      <find>aboutme.html</find>
+      <find>news_center.html</find>
+      <find>h</find>
+      <find>html</find>
+      <find>news.html</find>
+      <find>img</find>
+      <find>im</find>
+      <find>image</find>
+      <find>url(images/menu_bg.jpg) no-repeat;height:38px;</find>
+      <find>c</find>
+      <find>contact</find>
+      <find>/contact</find>
+      <find>l</find>
+      <find>lx</find>
+      <find>lxw</find>
+      <find>lxwm</find>
+      <find>background:url(images/lxwm.jpg);</find>
+      <find>pic.jpg</find>
+      <find>pic.jpg</find>
+      <find>map.jpg</find>
+      <find>background:url(images/map.jpg) no-repeat top;</find>
+      <find>map.jpg</find>
+      <find>20140408103989728972.jpg</find>
+      <find>20140404183881428142.jpg</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>business</replace>
+      <replace>/</replace>
+      <replace>href=&quot;http://{{ profile.url }&quot;</replace>
+      <replace>href=&quot;http://{{ profile.url }}&quot;</replace>
+      <replace>href=&quot;http://{{ profile.url }}</replace>
+      <replace>/business</replace>
+      <replace>/profile</replace>
+      <replace>/news</replace>
+      <replace>/contact_us</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\ANGEL\PycharmProjects\whsdcszx\templates</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/whsdcszx/settings.py" />
+        <option value="$PROJECT_DIR$/common_static/tinymce/js/tinymce/plugins/imageupload/plugin.min.js" />
+        <option value="$PROJECT_DIR$/templates/bussiness.html" />
+        <option value="$PROJECT_DIR$/templates/bussiness_type.html" />
+        <option value="$PROJECT_DIR$/www/migrations/0001_initial.py" />
+        <option value="$PROJECT_DIR$/www/migrations/0003_auto_20180102_2324.py" />
+        <option value="$PROJECT_DIR$/www/migrations/0005_auto_20180102_2333.py" />
+        <option value="$PROJECT_DIR$/www/migrations/0008_auto_20180103_2148.py" />
+        <option value="$PROJECT_DIR$/common_static/tinymce/js/tinymce/textarea.js" />
+        <option value="$PROJECT_DIR$/www/templatetags/pagetag.py" />
+        <option value="$PROJECT_DIR$/templates/news_in.html" />
+        <option value="$PROJECT_DIR$/templates/news_details.html" />
+        <option value="$PROJECT_DIR$/templates/news_2.html" />
+        <option value="$PROJECT_DIR$/templates/project.html" />
+        <option value="$PROJECT_DIR$/templates/project_details.html" />
+        <option value="$PROJECT_DIR$/common_static/js/identify_code.js" />
+        <option value="$PROJECT_DIR$/www/models.py" />
+        <option value="$PROJECT_DIR$/common_static/css/css.css" />
+        <option value="$PROJECT_DIR$/templates/contact_us.html" />
+        <option value="$PROJECT_DIR$/templates/message.html" />
+        <option value="$PROJECT_DIR$/templates/business_type.html" />
+        <option value="$PROJECT_DIR$/templates/news_1.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/news.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/jobs.html" />
+        <option value="$PROJECT_DIR$/templates/profile.html" />
+        <option value="$PROJECT_DIR$/whsdcszx/urls.py" />
+        <option value="$PROJECT_DIR$/templates/zizhi.html" />
+        <option value="$PROJECT_DIR$/www/views.py" />
+        <option value="$PROJECT_DIR$/templates/business.html" />
+        <option value="$PROJECT_DIR$/www/admin.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whsdcszx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whsdcszx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whsdcszx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whsdcszx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whsdcszx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whsdcszx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whsdcszx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whsdcszx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whsdcszx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whsdcszx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whsdcszx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common_static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tinymce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whsdcszx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whsdcszx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common_static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tinymce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whsdcszx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whsdcszx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common_static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whsdcszx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whsdcszx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common_static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ANGEL\PycharmProjects\whsdcszx\templates" />
+      <recent name="C:\Users\ANGEL\PycharmProjects\whsdcszx\common_static\js" />
+      <recent name="C:\Users\ANGEL\PycharmProjects\whsdcszx\common_static\css" />
+      <recent name="C:\Users\ANGEL\PycharmProjects\whsdcszx\common_static\images" />
+      <recent name="C:\Users\ANGEL\PycharmProjects\whsdcszx\common_static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.whsdcszx">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="whsdcszx" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="whsdcszx" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="whsdcszx" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="whsdcszx" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="whsdcszx" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="whsdcszx" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="whsdcszx" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="whsdcszx" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="whsdcszx" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="whsdcszx.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="whsdcszx" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Django server.whsdcszx" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85f22486-0cb9-4837-9345-15160ec97e4f" name="Default" comment="" />
+      <created>1514897667349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1514897667349</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18887262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47949526" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4148265" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20031546" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@whsdcszx" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30441642" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/common_static/js/photolb_dolphin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="65" lean-forward="true" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
+          <folding>
+            <marker date="1455863556089" expanded="true" signature="4846:4861" ph="..." />
+            <marker date="1455863556089" expanded="true" signature="5001:5018" ph="..." />
+            <marker date="1455863556089" expanded="true" signature="5367:5384" ph="..." />
+            <marker date="1455863556089" expanded="true" signature="5399:5414" ph="..." />
+            <marker date="1455863556089" expanded="true" signature="8101:8116" ph="..." />
+            <marker date="1455863556089" expanded="true" signature="8256:8273" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding>
+            <element signature="e#22#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/news_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/zizhi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="44" lean-forward="false" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="44" />
+          <folding>
+            <element signature="e#3527#3578#0#HTML" expanded="true" />
+            <element signature="e#3770#3822#0#HTML" expanded="true" />
+            <element signature="e#3908#3934#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whsdcszx/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="72" lean-forward="true" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+          <folding>
+            <marker date="1515593024602" expanded="false" signature="4381:4396" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="4597:4603" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="4689:4704" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="4706:4712" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="4712:4718" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="4718:4724" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="4724:4730" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5008:5023" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="5025:5031" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5031:5037" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5037:5043" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5043:5049" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5364:5379" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="5381:5387" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5387:5393" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5393:5399" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5399:5405" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5908:5914" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="6133:6148" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="6397:6412" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="6524:6555" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="6658:6689" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="6792:6823" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="6926:6957" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="59" lean-forward="false" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/business.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1843">
+          <caret line="97" column="78" lean-forward="false" selection-start-line="97" selection-start-column="78" selection-end-line="97" selection-end-column="78" />
+          <folding>
+            <element signature="e#149#228#0#HTML" expanded="false" />
+            <element signature="e#2931#2955#0#HTML" expanded="false" />
+            <element signature="e#3100#3158#0#HTML" expanded="false" />
+            <element signature="e#3175#3181#1#HTML" expanded="false" />
+            <element signature="e#3243#3266#0#HTML" expanded="false" />
+            <element signature="e#3303#3309#0#HTML" expanded="false" />
+            <element signature="e#3309#3315#0#HTML" expanded="false" />
+            <element signature="e#3315#3321#0#HTML" expanded="false" />
+            <element signature="e#3321#3327#0#HTML" expanded="false" />
+            <element signature="e#3392#3396#0#HTML" expanded="false" />
+            <element signature="e#3397#3401#0#HTML" expanded="false" />
+            <element signature="e#3406#3412#0#HTML" expanded="false" />
+            <element signature="e#3534#3585#0#HTML" expanded="false" />
+            <element signature="e#3735#3772#0#HTML" expanded="false" />
+            <element signature="e#4080#4117#0#HTML" expanded="false" />
+            <element signature="e#4157#4163#0#HTML" expanded="false" />
+            <element signature="e#4163#4169#0#HTML" expanded="false" />
+            <element signature="e#4169#4175#0#HTML" expanded="false" />
+            <element signature="e#4175#4181#0#HTML" expanded="false" />
+            <element signature="e#4227#4249#0#HTML" expanded="false" />
+            <element signature="e#4477#4514#0#HTML" expanded="false" />
+            <marker date="1515593412849" expanded="true" signature="3824:3872" ph="..." />
+            <marker date="1515593412849" expanded="true" signature="3873:4990" ph="..." />
+            <marker date="1515593412849" expanded="true" signature="3887:4045" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="49" column="62" lean-forward="false" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+          <folding>
+            <element signature="e#22#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+          <folding>
+            <marker date="1515593024602" expanded="false" signature="4381:4396" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="4597:4603" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="4689:4704" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="4706:4712" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="4712:4718" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="4718:4724" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="4724:4730" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5008:5023" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="5025:5031" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5031:5037" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5037:5043" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5043:5049" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5364:5379" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="5381:5387" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5387:5393" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5393:5399" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5399:5405" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5908:5914" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="6133:6148" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="6397:6412" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="6524:6555" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="6658:6689" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="6792:6823" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="6926:6957" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/business_type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1843">
+          <caret line="97" column="78" lean-forward="false" selection-start-line="97" selection-start-column="78" selection-end-line="97" selection-end-column="78" />
+          <folding>
+            <element signature="e#1968#2025#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whsdcszx/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_static/tinymce/js/tinymce/langs/zh_CN.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_static/tinymce/js/tinymce/tinymce.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_static/tinymce/js/tinymce/plugins/imageupload/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1446">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_static/tinymce/js/tinymce/plugins/imageupload/plugin.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="77" column="62" lean-forward="true" selection-start-line="77" selection-start-column="62" selection-end-line="77" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whsdcszx/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="121" column="23" lean-forward="false" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/migrations/0003_auto_20180102_2324.py" />
+    <entry file="file://$PROJECT_DIR$/www/migrations/0005_auto_20180102_2333.py" />
+    <entry file="file://$PROJECT_DIR$/www/migrations/0008_auto_20180103_2148.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4ee3b8a7-d8f3-49dc-afb2-771da7a6f03d/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_static/tinymce/js/tinymce/textarea.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templatetags/pagetag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/news_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_static/js/identify_code.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2660">
+          <caret line="140" column="21" lean-forward="false" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/project_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="12" column="83" lean-forward="true" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+          <folding>
+            <element signature="e#3651#3694#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_static/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4376">
+          <caret line="567" column="17" lean-forward="true" selection-start-line="567" selection-start-column="17" selection-end-line="567" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_static/js/gVerify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contact_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-633">
+          <caret line="108" column="51" lean-forward="false" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
+          <folding>
+            <element signature="e#179#258#0#HTML" expanded="false" />
+            <element signature="e#286#328#0#HTML" expanded="false" />
+            <element signature="e#2544#2565#0#HTML" expanded="false" />
+            <element signature="e#2710#2768#0#HTML" expanded="false" />
+            <element signature="e#2785#2791#1#HTML" expanded="false" />
+            <element signature="e#2889#2895#0#HTML" expanded="false" />
+            <element signature="e#2895#2901#0#HTML" expanded="false" />
+            <element signature="e#2901#2907#0#HTML" expanded="false" />
+            <element signature="e#2907#2913#0#HTML" expanded="false" />
+            <element signature="e#3044#3048#0#HTML" expanded="false" />
+            <element signature="e#3073#3077#0#HTML" expanded="false" />
+            <element signature="e#3082#3088#0#HTML" expanded="false" />
+            <element signature="e#3210#3261#0#HTML" expanded="false" />
+            <element signature="e#3453#3507#0#HTML" expanded="false" />
+            <element signature="e#3546#3569#0#HTML" expanded="false" />
+            <element signature="e#3720#3743#0#HTML" expanded="false" />
+            <element signature="e#3775#3781#0#HTML" expanded="false" />
+            <element signature="e#4405#4411#0#HTML" expanded="false" />
+            <element signature="e#4889#4895#0#HTML" expanded="false" />
+            <element signature="e#4993#4999#0#HTML" expanded="false" />
+            <element signature="e#5394#5425#0#HTML" expanded="false" />
+            <element signature="e#5539#5571#0#HTML" expanded="false" />
+            <element signature="e#5694#5700#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="65" column="57" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/business_type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="47" column="26" lean-forward="false" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+          <folding>
+            <element signature="e#1968#2025#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/news_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding>
+            <element signature="e#1110#1167#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="29" column="69" lean-forward="false" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="67" column="26" lean-forward="false" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+          <folding>
+            <element signature="e#3324#3375#0#HTML" expanded="false" />
+            <element signature="e#5438#5470#0#HTML" expanded="false" />
+            <element signature="e#5545#5599#0#HTML" expanded="false" />
+            <element signature="e#6066#6117#0#HTML" expanded="false" />
+            <element signature="e#6184#6190#0#HTML" expanded="false" />
+            <element signature="e#6190#6196#0#HTML" expanded="false" />
+            <element signature="e#6196#6202#0#HTML" expanded="false" />
+            <element signature="e#6202#6208#0#HTML" expanded="false" />
+            <element signature="e#6272#6302#0#HTML" expanded="false" />
+            <element signature="e#6649#6668#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/jobs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="81" column="33" lean-forward="false" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+          <folding>
+            <element signature="e#3453#3507#0#HTML" expanded="false" />
+            <element signature="e#3546#3569#0#HTML" expanded="false" />
+            <element signature="e#3885#3891#0#HTML" expanded="false" />
+            <element signature="e#3989#3995#0#HTML" expanded="false" />
+            <element signature="e#4390#4421#0#HTML" expanded="false" />
+            <element signature="e#4535#4567#0#HTML" expanded="false" />
+            <element signature="e#4690#4696#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/zizhi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="44" lean-forward="false" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="44" />
+          <folding>
+            <element signature="e#3527#3578#0#HTML" expanded="true" />
+            <element signature="e#3770#3822#0#HTML" expanded="true" />
+            <element signature="e#3908#3934#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whsdcszx/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1862">
+          <caret line="101" column="9" lean-forward="false" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_static/js/photolb_dolphin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="65" lean-forward="false" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
+          <folding>
+            <marker date="1455863556089" expanded="true" signature="4846:4861" ph="..." />
+            <marker date="1455863556089" expanded="true" signature="5001:5018" ph="..." />
+            <marker date="1455863556089" expanded="true" signature="5367:5384" ph="..." />
+            <marker date="1455863556089" expanded="true" signature="5399:5414" ph="..." />
+            <marker date="1455863556089" expanded="true" signature="8101:8116" ph="..." />
+            <marker date="1455863556089" expanded="true" signature="8256:8273" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/business.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="81" column="117" lean-forward="false" selection-start-line="81" selection-start-column="117" selection-end-line="81" selection-end-column="117" />
+          <folding>
+            <element signature="e#149#228#0#HTML" expanded="false" />
+            <element signature="e#2931#2955#0#HTML" expanded="false" />
+            <element signature="e#3100#3158#0#HTML" expanded="false" />
+            <element signature="e#3175#3181#1#HTML" expanded="false" />
+            <element signature="e#3243#3266#0#HTML" expanded="false" />
+            <element signature="e#3303#3309#0#HTML" expanded="false" />
+            <element signature="e#3309#3315#0#HTML" expanded="false" />
+            <element signature="e#3315#3321#0#HTML" expanded="false" />
+            <element signature="e#3321#3327#0#HTML" expanded="false" />
+            <element signature="e#3392#3396#0#HTML" expanded="false" />
+            <element signature="e#3397#3401#0#HTML" expanded="false" />
+            <element signature="e#3406#3412#0#HTML" expanded="false" />
+            <element signature="e#3534#3585#0#HTML" expanded="false" />
+            <element signature="e#3735#3772#0#HTML" expanded="false" />
+            <element signature="e#4080#4117#0#HTML" expanded="false" />
+            <element signature="e#4157#4163#0#HTML" expanded="false" />
+            <element signature="e#4163#4169#0#HTML" expanded="false" />
+            <element signature="e#4169#4175#0#HTML" expanded="false" />
+            <element signature="e#4175#4181#0#HTML" expanded="false" />
+            <element signature="e#4227#4249#0#HTML" expanded="false" />
+            <element signature="e#4477#4514#0#HTML" expanded="false" />
+            <marker date="1515593412849" expanded="true" signature="3824:3872" ph="..." />
+            <marker date="1515593412849" expanded="true" signature="3873:4990" ph="..." />
+            <marker date="1515593412849" expanded="true" signature="3887:4045" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="91" lean-forward="false" selection-start-line="12" selection-start-column="91" selection-end-line="12" selection-end-column="91" />
+          <folding>
+            <element signature="e#438#495#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/news_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="23" column="72" lean-forward="false" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+          <folding>
+            <marker date="1515593024602" expanded="false" signature="4381:4396" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="4597:4603" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="4689:4704" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="4706:4712" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="4712:4718" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="4718:4724" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="4724:4730" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5008:5023" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="5025:5031" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5031:5037" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5037:5043" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5043:5049" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5364:5379" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="5381:5387" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5387:5393" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5393:5399" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5399:5405" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="5908:5914" ph=" " />
+            <marker date="1515593024602" expanded="false" signature="6133:6148" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="6397:6412" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="6524:6555" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="6658:6689" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="6792:6823" ph="..." />
+            <marker date="1515593024602" expanded="false" signature="6926:6957" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding>
+            <element signature="e#22#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="91" column="5" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="5" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,144 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    <div id="main">
+
+
+        <div id="left">
+            <div>
+                <div style="width:248px;height:43px;line-height:43px;color :#5A6A6A;font-size:14px;">
+                    <span style="margin-left:20px;font-weight:bold;">业务范围</span>&nbsp;<span style="font-size:12px;">Business </span><a
+                        href="/business" style="float:right;width:50px;height:43px;display:block;"> </a>
+                </div>
+                <div class="div Services">
+                    <ul>
+
+                        {% for b in business_list %}
+                            <li class="bg"><a href="/business/{{ b.id }}">{{ b.type }}</a></li>
+                        {% endfor %}
+
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div style="width:248px;height:43px;line-height:43px;color :#5A6A6A;font-size:14px;">
+                    <span style="margin-left:20px;font-weight:bold;">公司简介</span><a href="/profile"
+                                                                                   style="float:right;width:50px;height:43px;display:block;"> </a>
+                </div>
+                <div class="div7 suo company">
+                    <ul>
+
+
+                        <li class="bg"><a href="/profile">中心简介</a></li>
+
+                        <li class="bg"><a href="/profile">组织机构</a></li>
+
+                        <li class="bg"><a href="/profile">经营理念</a></li>
+
+                        <li class="bg"><a href="/business">业务范围</a></li>
+
+                        <li class="bg"><a href="/zizhi">企业资质</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div style="width:248px;height:43px;line-height:43px;color :#6A6A6A;font-size:14px;">
+                <span style="margin-left:20px;font-weight:bold;">联系我们</span>&nbsp;<span style="font-size:12px;">Contact us</span><a
+                    href="/contact_us" style="float:right;width:50px;height:43px;display:block;"> </a>
+            </div>
+            <div class="div qq" style="padding-top:8px;">
+                <p>
+                    <span style="font-size:16px;"><strong>{{ profile.company_name }}</strong></span>
+                </p>
+                <p>
+                    <span style="font-size:16px;"></span>地址：{{ profile.address }}&nbsp;
+                </p>
+                <p>
+                    手机：{{ profile.phone_number }}
+                </p>
+                <p>
+                    电话：{{ profile.telephone }}
+                </p>
+                <p>
+                    传真：{{ profile.fax }}
+                </p>
+                <p>
+                    网址：<a href="http://{{ profile.url }}">{{ profile.url }}</a>
+                </p>
+
+            </div>
+
+        </div>
+        <div id="right">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                   style="   height: 43px;">
+                <tbody>
+                <tr>
+                    <td width="3%">
+                    </td>
+                    <td width="16%" style="color:#6A6A6A;; font-size: 14px; line-height:43px;" valign="middle">&nbsp;<b>业务范围</b>
+                    </td>
+                    <td style="font-size: 12px" width="80%" height="20" class="mdc">&nbsp;&nbsp;&nbsp;&nbsp;您所在的位置：<a
+                            href="/" class="tt">首页</a> &gt; &gt; 业务范围&nbsp;
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+            <div id="wz1" style="border: #cccccc 1px solid;min-height:585px;">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+
+                    <tr style="font-size:14px;color:#000000;">
+{#                        <td valign="top" style="padding: 10px; line-height: 25px; color:#000000;"><img alt=""#}
+{#                                                                                                       src="{% static "images/20140404183881428142.jpg" %}">#}
+                            <p style="font-size:14px;color:#000000;">
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;<span
+                                        style="color:#000000;">{{ profile.business_info|linebreaks }}</span></span>
+                            </p>
+                        <br/>
+                            {% for business in  business_list %}
+                                <strong><span style="font-size:14px;color:#000000;">{{ business.type }}</span></strong>
+                                <p style="font-size:14px;color:#000000;">
+                                    <span style="font-size:14px;color:#000000;">&nbsp;</span><span
+                                        style="font-family:宋体;font-size:14px;">{{ business.content |linebreaks }}</span>
+                                </p>
+                                <br/>
+                            {% endfor %}
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="15">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="8">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div style="float:left;width:650px;">
+                                <div></div>
+                            </div>
+                            <div style="float:right;width:100px;"><a href="#" onfocus="blur()">
+                                <img src="{% static "images/btn_top.jpg" %}" border="0"></a>&nbsp;
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="10">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <div style="clear:both;"></div>
+
+    </div>
+{% endblock %}

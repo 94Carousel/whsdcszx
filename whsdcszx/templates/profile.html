@@ -1,0 +1,169 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    <div id="main">
+
+
+        <div id="left">
+
+            <div>
+                <div style="width:248px;height:43px;line-height:43px;color :#5A6A6A;font-size:14px;">
+                    <span style="margin-left:20px;font-weight:bold;">公司简介</span><a href="/profile"
+                                                                                   style="float:right;width:50px;height:43px;display:block;"> </a>
+                </div>
+                <div class="div7 suo company">
+                    <ul>
+
+
+                        <li class="bg"><a href="/profile">中心简介</a></li>
+
+                        <li class="bg"><a href="/profile">组织机构</a></li>
+
+                        <li class="bg"><a href="/profile">经营理念</a></li>
+
+                        <li class="bg"><a href="/business">业务范围</a></li>
+
+                        <li class="bg"><a href="/zizhi">企业资质</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div>
+                <div style="width:248px;height:43px;line-height:43px;color :#5A6A6A;font-size:14px;">
+                    <span style="margin-left:20px;font-weight:bold;">业务范围</span>&nbsp;<span style="font-size:12px;">Business </span><a
+                        href="/business" style="float:right;width:50px;height:43px;display:block;"> </a>
+                </div>
+                <div class="div Services">
+                    <ul>
+                        {% for b in business %}
+                            <li class="bg"><a href="/business/{{ b.id }}">{{ b.type }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+
+            <div style="width:248px;height:43px;line-height:43px;color :#6A6A6A;font-size:14px;">
+                <span style="margin-left:20px;font-weight:bold;">联系我们</span>&nbsp;<span style="font-size:12px;">Contact us</span><a
+                    href="/contact_us" style="float:right;width:50px;height:43px;display:block;"> </a>
+            </div>
+            <div class="div qq" style="padding-top:8px;">
+                <p>
+                    <span style="font-size:16px;"><strong>{{ profile.company_name }}</strong></span>
+                </p>
+                <p>
+                    <span style="font-size:16px;"></span>地址：{{ profile.address }}&nbsp;
+                </p>
+                <p>
+                    手机：{{ profile.phone_number }}
+                </p>
+                <p>
+                    电话：{{ profile.telephone }}
+                </p>
+                <p>
+                    传真：{{ profile.fax }}
+                </p>
+                <p>
+                    网址：<a href="http://{{ profile.url }}">{{ profile.url }}</a>
+                </p>
+
+            </div>
+
+        </div>
+        <div id="right">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                   style="height: 43px;">
+                <tbody>
+                <tr>
+                    <td width="3%">
+                    </td>
+                    <td width="16%" style="color:#6A6A6A;; font-size: 14px; line-height:43px;" valign="middle">&nbsp;<b>中心简介</b>
+                    </td>
+                    <td style="font-size:12px;" width="80%" height="20" class="mdc">&nbsp;&nbsp;&nbsp;&nbsp;您所在的位置：<a
+                            href="/" class="tt">首页</a> &gt; &gt; 中心简介&nbsp;
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+            <div id="wz1" style="border: #cccccc 1px solid;min-height:585px;">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+
+                    <tr>
+                        <td valign="top" style="padding: 10px; line-height: 25px; color: #666; "><p>
+                            <img alt="" src="{% static "images/2014040418500820820.jpg" %}" width="550" height="368">&nbsp;<span
+                                style="font-size:14px;"><br>
+</span>
+                        </p>
+                            <p style="text-indent:1.5em;">
+                                {#                                <span style="font-size:14px;">&nbsp;&nbsp;武汉市水电测试中心成立于1988年。是在原水利电力部中南五省大型泵站原型测试试点的基础上发展起来的一个独立的水电工程检测经营实体。</span><span#}
+                                {#                                    style="font-size:14px;">在激烈的市场竞争中，我们外引内联，不断学习和吸收国内外同行们的先进经验，积极组织科技攻关和技术攻关，特别注意工程技术人员的培养和引进，使中心的技术力量得到增强，服务范围逐渐扩大，检测手段不断提高。通过不懈努力，中心通过了ISO9001-2008质量管理体系论证；通过了湖北省质量技术监督局CMA计量认证；取得了水利部水利工程质量检测机械电气甲级、混凝土工程甲级、金属结构甲级检测资质。</span>&nbsp;<br>#}
+                                {#                                <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp; 中心现有固定的办公场所和实验室1500㎡，分设有：行管部，技术部，检测一部，检测二部。并拥有一支深厚专业知识的管理团队，建立了一整套科学严谨的内部管理制度，凝聚了一批业务精湛，服务一流的专业技术人员。中心拥有注册执业人员三十三人，其中具有高级专业技术职称八名，中级专业技术职称二十名，注册电气工程师一名，注册建造师二名，形成了各层次，各专业人才协调发展的专业技术团队。</span><br>#}
+                                {#                                <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;我中心曾是武汉市大中小型泵站更新改造工程建设单位，共改造800kW机组二百余台套，155kW-630kW机组四百余台套，社会效益显著，为武汉市城区防汛抗旱作出了应有贡献。着力培育员工，积极营造宽松和谐环境；中心不断引进和外聘专业技术人才充实中心的专业力量，鼓励员工学习进取，开拓创新，通过定期培训学习及外出深造的形式，提高员工的专业知识水平和实际工作技能，使每个部门员工都能充分发挥自己的能动性和创造性；及时、高效、准确地完成委托方的检测项目。</span><br>#}
+                                {#                                <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;中心以工程检测为核心，凭借高素质的人才队伍，严谨的工作作风，坚持高质量的服务标准，严格遵守各类技术标准和规程，为社会各界提供优质服务，与客户共同发展，共铸辉煌。</span>#}
+                                {#                            </p>#}
+                                {#                            <p>#}
+                                {#                                <br>#}
+                                {#                            </p>#}
+                                {#                            <p>#}
+                                {#                                &nbsp;#}
+                                {#                            </p>#}
+                                {#                            <p>#}
+                                {#                                <span style="font-size:14px;"><strong>质量方针</strong></span>#}
+                                {#                            </p>#}
+                                {#                            <p>#}
+                                {#                                <span style="font-size:14px;"></span><strong></strong><br>#}
+                                {#                                <span style="font-size:14px;line-height:2.5;">检测数据准确可靠</span><br>#}
+                                {#                                <span style="font-size:14px;line-height:2.5;">检测报告科学公正</span><br>#}
+                                {#                                <span style="font-size:14px;line-height:2.5;">检测过程精益求精</span><br>#}
+                                {#                                <span style="font-size:14px;line-height:2.5;">服务顾客热情周到</span>#}
+                                {#                            </p>#}
+                                {{ profile.profile|linebreaks|safe }}
+                            <p>
+                                &nbsp;
+                            </p>
+                            <p>
+                                <span style="font-size:14px;"></span><span style="font-size:14px;">&nbsp;</span>
+                            </p>
+                            <p>
+                                <br>
+                            </p>
+                            <p>
+                                <span id="__kindeditor_bookmark_end_1__"></span><span style="font-size:14px;"></span>&nbsp;
+                            </p></td>
+                    </tr>
+                    <tr>
+                        <td height="15">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="8">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div style="float:left;width:650px;">
+                                <div></div>
+                            </div>
+                            <div style="float:right;width:100px;"><a href="#" onfocus="blur()">
+                                <img src="{% static "images/btn_top.jpg" %}" border="0"></a>&nbsp;
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="10">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <div style="clear:both;"></div>
+
+    </div>
+{% endblock %}

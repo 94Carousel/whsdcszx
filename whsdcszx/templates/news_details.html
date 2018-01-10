@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% block content %}
+    {% load static %}
+    <div id="main">
+
+
+        <div id="left">
+
+            <div>
+                <div style="width:248px;height:43px;line-height:43px;color :#5A6A6A;font-size:14px;">
+                    <span style="margin-left:20px;font-weight:bold;">新闻分类</span><a href="/news"
+                                                                                   style="float:right;width:50px;height:43px;display:block;"> </a>
+                </div>
+                <div class="div7 suo company">
+                    <ul>
+
+
+                        <li class="bg"><a href="/news_1">行业新闻</a></li>
+
+                        <li class="bg"><a href="/news_2">公司新闻</a></li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div>
+                <div style="width:248px;height:43px;line-height:43px;color :#5A6A6A;font-size:14px;">
+                    <span style="margin-left:20px;font-weight:bold;">业务范围</span>&nbsp;<span style="font-size:12px;">Business </span><a
+                        href="/business" style="float:right;width:50px;height:43px;display:block;"> </a>
+                </div>
+                <div class="div Services">
+                    <ul>
+
+                        {% for b in business_list %}
+                            <li class="bg"><a href="/business/{{ b.id }}">{{ b.type }}</a></li>
+                        {% endfor %}
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div style="width:248px;height:43px;line-height:43px;color :#6A6A6A;font-size:14px;">
+                <span style="margin-left:20px;font-weight:bold;">联系我们</span>&nbsp;<span style="font-size:12px;">Contact us</span><a
+                    href="/contact_us" style="float:right;width:50px;height:43px;display:block;"> </a>
+            </div>
+            <div class="div qq" style="padding-top:8px;">
+                <p>
+                    <span style="font-size:16px;"><strong>{{ pprofile.company_name }}</strong></span>
+                </p>
+                <p>
+                    <span style="font-size:16px;"></span>地址：{{ profile.address }}&nbsp;
+                </p>
+                <p>
+                    手机：{{ profile.phone_number }}
+                </p>
+                <p>
+                    电话：{{ profile.telephone }}
+                </p>
+                <p>
+                    传真：{{ profile.fax }}
+                </p>
+                <p>
+                    网址：<a href="http://{{ profile.url }}">{{ profile.url }}</a>
+                </p>
+
+            </div>
+
+        </div>
+        <div id="right">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                   style="   height: 43px;">
+                <tbody>
+                <tr>
+                    <td width="3%">
+                    </td>
+                    <td width="16%" style="color:#6A6A6A;; font-size: 14px; line-height:43px;" valign="middle">&nbsp;<b>新闻中心</b>
+                    </td>
+                    <td style="font-size: 12px;" width="80%" height="20" class="mdc">&nbsp;&nbsp;&nbsp;&nbsp;您所在的位置：<a
+                            href="/" class="tt">首页</a> &gt; &gt; 详细新闻&nbsp;
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+            <div id="wz1" style="border: #cccccc 1px solid;min-height:505px;">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+
+                    <tr>
+                        <td valign="top" style="padding: 10px; color: #666;">
+                            <div style="width:700px; ">
+                                <h1 style=" line-height:35px; font-size: 25px;">{{ news }}</h1>
+                                <div style="text-align:center; border-bottom:#CCCCCC solid 1px; line-height:30px;font-size: 12px;">
+                                    时间：{{ news.date|date:"Y-m-d" }} 点击：{{ news.count }}次
+                                </div>
+
+                                <div style="padding:10px; line-height:25px;">&nbsp;
+                                    <p class="MsoNormal">
+                                        <span style="line-height:150%;font-family:宋体;font-size:14px;">{{ news.content|safe }}</span><span
+                                            style="line-height:200%;font-size:16pt;"></span>
+                                    </p></div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <div style="clear:both;"></div>
+
+    </div>
+{% endblock %}

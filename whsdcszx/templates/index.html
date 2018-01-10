@@ -1,0 +1,254 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    <div id="main">
+        <div>
+            <div style="float:left;margin-right:8px;">
+                <div style="width:520px;height:43px;line-height:43px;color :#5A6A6A;font-size:14px;">
+                    <span style="margin-left:20px;font-weight:bold;">公司简介</span>&nbsp;<span style="font-size:12px;">Company profile</span><a
+                        href="/profile" style="float:right;width:50px;height:43px;display:block;"> </a>
+                </div>
+                <div class="div2" style="width:518px;height:224px;">
+
+                    <div class="txt" style="line-height:25px;">
+                        <img src="{% static "images/about.jpg" %}" width="160" height="179" align="left"
+                             style="margin-right:10px;">
+                        <span style="background-color:#ffffff;font-family:宋体;color:#666666;font-size:12px;">
+	 &nbsp;
+
+
+		 &nbsp;&nbsp;{{ profile.profile|slice:'220' }}...
+
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
+
+            <div style="float:left;margin-right:8px;">
+                <div style="width:248px;height:43px;line-height:43px;color :#5A6A6A;font-size:14px;">
+                    <span style="margin-left:20px;font-weight:bold;">新闻资讯</span>&nbsp;<span
+                        style="font-size:12px;">News </span><a href="/news"
+                                                               style="float:right;width:50px;height:43px;display:block;"> </a>
+                </div>
+                <div class="div Services" style="height:224px;">
+                    <ul>
+                        {% for new in news_list %}
+                            <li><a href="/news/{{ new.id }}" target="_blank">{{ new.title }}</a></li>
+                        {% endfor %}
+
+
+                    </ul>
+                </div>
+            </div>
+
+            <div style="float:right;width:220px;height: 265px; line-height:25px; ">
+                <span style="float:right; padding-right:5px; line-height:30px;"><a href="/profile"
+                                                                                   style=" color:#FFFFFF">More</a></span>
+                <div style="text-align:center; font-size:14px; padding-top:40px; padding-bottom:15px;">
+                    <marquee direction="up" scrollamount="3" width="200px;" onmouseout="this.start()" ;=""
+                             onmouseover="this.stop()" height="180px;">
+                        &nbsp;&nbsp;&nbsp;&nbsp;{{ profile.business_info }}
+                    </marquee>
+                </div>
+                <div>
+                    <div style="float:left; width:70px;"><a href="business.html"
+                                                            style="width:70px; height:20px; display:block;"></a></div>
+                    <div style="float:left; width:75px;"><a href="business1.html"
+                                                            style="width:75px; height:20px; display:block;"></a></div>
+                    <div style="float:left; width:70px;"><a href="business2.html"
+                                                            style="width:70px; height:20px; display:block;"></a></div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+
+        </div>
+        <div align="center" style="font-size: 12px;">
+            <table width="1001" border="0" cellpadding="0" cellspacing="1" bgcolor="DDDDDD" align="center">
+                <tbody>
+                <tr>
+                    <td bgcolor="#FFFFFF" align="center">
+                        <table width="998" height="196" border="0" cellpadding="0" cellspacing="0" align="center">
+                            <tbody>
+                            <tr>
+                                <td width="16" valign="top">
+                                    <div style="float: left; position: absolute; margin-left: -3px; margin-top: -3px;">
+                                        <img src="{% static "images/hot.png" %}">
+                                    </div>
+                                    <div style="float: left; position: absolute; margin-left: -3px; margin-top: 90px;">
+                                        <a onmouseover="setspeed(1);setfangxiang(1)" onmouseout="setspeed(1)"
+                                           href="javascript:void(null);">
+                                            <img src="{% static "images/left.png" %}" border="0"></a>
+                                    </div>
+                                    <div style="float: left; position: absolute; margin-left: 982px; margin-top: 90px;">
+                                        <a onmouseover="setspeed(1);setfangxiang(2)" onmouseout="setspeed(1)"
+                                           href="javascript:void(null);">
+                                            <img src="{% static "images/right.png" %}" border="0"></a>
+                                    </div>
+                                    <div align="left">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div align="center" id="demo" onmouseover="ii=1" style="overflow: hidden; width: 968px;
+                                    height: 175px;" onmouseout="ii=0">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                            <tr>
+                                                <td align="center" id="demo1">
+                                                    <table width="100" border="0" cellspacing="0" cellpadding="0">
+                                                        <tbody>
+                                                        <tr>
+                                                            {% for qulity in qulity_image %}
+                                                                <td>
+                                                                    <table width="100" border="0" cellspacing="0"
+                                                                           cellpadding="0">
+                                                                        <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <table width="100" border="0"
+                                                                                       cellspacing="0" cellpadding="0">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td style="font-size: 12px;"><a href="/qulity"
+                                                                                               title="{{ qulity.name }}"><img
+                                                                                                src="{{ qulity.image.url }}"
+                                                                                                width="135px"
+                                                                                                height="135px"
+                                                                                                border="0"></a></td>
+                                                                                    </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                                <table width="149" border="0"
+                                                                                       cellspacing="0" cellpadding="0">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <div align="center" style="font-size: 12px;"><a
+                                                                                                    href="/qulity"
+                                                                                                    title="{{ qulity.name }}">{{ qulity.name }}</a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            {% endfor %}
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td>
+                                                    <div id="demo2">
+                                                        <table width="100" border="0" cellspacing="0" cellpadding="0">
+                                                            <tbody>
+                                                            <tr>
+                                                                {% for qulity in qulity_image %}
+                                                                    <td>
+                                                                        <table width="100" border="0" cellspacing="0"
+                                                                               cellpadding="0">
+                                                                            <tbody>
+                                                                            <tr>
+                                                                                <td>
+                                                                                    <table width="100" border="0"
+                                                                                           cellspacing="0"
+                                                                                           cellpadding="0">
+                                                                                        <tbody>
+                                                                                        <tr>
+                                                                                            <td style="font-size: 12px;">
+                                                                                                <a style="font-size: 12px;" href="/qulity"
+                                                                                                   title="{{ qulity.name }}"><img
+                                                                                                        src="{{ qulity.image.url }}"
+                                                                                                        width="135px"
+                                                                                                        height="135px"
+                                                                                                        border="0"></a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                    <table width="149" border="0"
+                                                                                           cellspacing="0"
+                                                                                           cellpadding="0">
+                                                                                        <tbody>
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                <div style="font-size: 12px;"align="center">
+                                                                                                    <a style="font-size: 12px;" href="/qulity"
+                                                                                                       title="{{ qulity.name }}">{{ qulity.name }}</a>
+                                                                                                </div>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                {% endfor %}
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <script>
+                                        var ii = -1;
+                                        var speed = 1;
+                                        var fangxiang = 1;
+
+                                        var demo = document.getElementById('demo');
+                                        var demo1 = document.getElementById('demo1');
+                                        var demo2 = document.getElementById('demo2');
+
+                                        demo2.innerHTML = demo1.innerHTML
+                                        function andyzsy() {
+                                            if (ii == 1) return
+                                            for (i = 1; i <= speed; i++) {
+                                                if (fangxiang == "2") {
+
+                                                    demo.scrollLeft = demo.scrollLeft - 1;
+                                                    if (demo.scrollLeft == "0")
+                                                        demo.scrollLeft = demo1.offsetWidth
+                                                }
+                                                else {
+                                                    demo.scrollLeft++
+
+                                                    if (demo.scrollLeft >= demo1.offsetWidth)
+                                                        demo.scrollLeft = 0
+                                                }
+                                            }
+                                        }
+                                        function setspeed(x) {
+                                            speed = x;
+                                        }
+                                        function setfangxiang(x) {
+                                            fangxiang = x;
+                                        }
+                                        setInterval(andyzsy, 10)
+                                    </script>
+
+                                </td>
+                                <td width="16">&nbsp;
+
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div style="clear:both;"></div>
+
+    </div>
+{% endblock %}

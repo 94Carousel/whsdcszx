@@ -1,0 +1,191 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    {% load static %}
+    {% load pagetag %}
+    <script src="{% static "js/gVerify.js" %}"></script>
+    <div id="main">
+
+
+        <div id="left">
+
+            <div>
+                <div style="width:248px;height:43px;line-height:43px;color :#5A6A6A;font-size:14px;">
+                    <span style="margin-left:20px;font-weight:bold;">留言中心</span><a href="#"
+                                                                                   style="float:right;width:50px;height:43px;display:block;"> </a>
+                </div>
+                <div class="div7 suo company">
+                    <ul>
+
+
+                        <li class="bg"><a href="#">留言中心</a></li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div>
+                <div style="width:248px;height:43px;line-height:43px;color :#5A6A6A;font-size:14px;">
+                    <span style="margin-left:20px;font-weight:bold;">业务范围</span>&nbsp;<span style="font-size:12px;">Business </span><a
+                        href="/business" style="float:right;width:50px;height:43px;display:block;"> </a>
+                </div>
+                <div class="div Services">
+                    <ul>
+
+                        {% for b in business_list %}
+                            <li class="bg"><a href="/business/{{ b.id }}">{{ b.type }}</a></li>
+                        {% endfor %}
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div style="width:248px;height:43px;line-height:43px;color :#6A6A6A;font-size:14px;">
+                <span style="margin-left:20px;font-weight:bold;">联系我们</span>&nbsp;<span style="font-size:12px;">Contact us</span><a
+                    href="/contact_us" style="float:right;width:50px;height:43px;display:block;"> </a>
+            </div>
+            <div class="div qq" style="padding-top:8px;">
+                <p>
+                    <span style="font-size:16px;"><strong>{{ pprofile.company_name }}</strong></span>
+                </p>
+                <p>
+                    <span style="font-size:16px;"></span>地址：{{ profile.address }}&nbsp;
+                </p>
+                <p>
+                    手机：{{ profile.phone_number }}
+                </p>
+                <p>
+                    电话：{{ profile.telephone }}
+                </p>
+                <p>
+                    传真：{{ profile.fax }}
+                </p>
+                <p>
+                    网址：<a href="http://{{ profile.url }}">{{ profile.url }}</a>
+                </p>
+
+            </div>
+
+        </div>
+        <div id="right">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                   style="   height: 43px;">
+                <tbody>
+                <tr>
+                    <td width="3%">
+                    </td>
+                    <td width="16%" style="color:#6A6A6A;; font-size: 14px; line-height:43px;" valign="middle">&nbsp;<b>留言中心 </b>
+                    </td>
+                    <td style="font-size: 12px;" width="80%" height="20" class="mdc">&nbsp;&nbsp;&nbsp;&nbsp;您所在的位置：<a
+                            href="/" class="tt">首页</a> &gt; &gt; 留言中心 &nbsp;
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+            <div id="wz1" style="border: #cccccc 1px solid;min-height:505px;">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+                    <tr>
+                        <td width="16%" height="25" align="center" bgcolor="ffffff"><font color="#FF0000">*</font>留言主题：
+                        </td>
+                        <td bgcolor="ffffff"><input maxlength="50" size="60" name="txtDW" id="txtDW22222"></td>
+                    </tr>
+                    <tr>
+                        <td width="16%" height="25" align="center" bgcolor="ffffff"><font color="#FF0000">*</font>姓　　名：
+                        </td>
+                        <td bgcolor="ffffff"><input maxlength="50" size="60" name="txtName" id="txtName22222" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="16%" height="25" align="center" bgcolor="ffffff"><font color="#FF0000">*</font>联系电话：
+                        </td>
+                        <td bgcolor="ffffff"><input maxlength="50" size="60" name="txtTel" id="txtTel22222" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="16%" height="25" align="center" bgcolor="ffffff"><font color="#FF0000">*</font>电子邮件：
+                        </td>
+                        <td bgcolor="ffffff"><input maxlength="50" size="60" name="txtEmail" id="txtEmail22222"></td>
+                    </tr>
+                    <tr>
+                        <td width="16%" height="25" align="center" bgcolor="ffffff"><font color="#FF0000">*</font>留言内容：
+                        </td>
+                        <td bgcolor="ffffff"><textarea name="txtMsg" id="txtMsg" rows="8" cols="60"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="16%" height="25" align="center" bgcolor="ffffff">验证码：</td>
+                        <td bgcolor="ffffff"><input name="txtcode" type="text" id="txtcode"
+                                                    style="border:1px #7F9DB9 solid" size="6" maxlength="4">
+                            <div id="v_container" style="width: 130px;height: 32.500px; display: inline"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="10">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="10">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" bgcolor="ffffff" height="25">
+                            <input name="Submit3" type="submit" style="width:60px;height:24px; margin-left: 100px;"
+                                   value="发表" onclick="commit();">&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input name="Submit4" type="reset" style="width:60px;height:24px" value="重写"
+                                   onclick="reset();">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="10">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div style="clear:both;"></div>
+
+    </div>
+    <script type="application/javascript">
+        var verifyCode = new GVerify("v_container");
+        function commit() {
+            var res = verifyCode.validate(document.getElementById("txtcode").value);
+            if (res) {
+                var title = document.getElementById("txtDW22222").value
+                var name = document.getElementById("txtName22222").value
+                var phone = document.getElementById("txtTel22222").value
+                var email = document.getElementById("txtEmail22222").value
+                var content = document.getElementById("txtMsg").value
+                var message = {"title": title, "name": name, "phone": phone, "email": email, "content": content}
+                if (title.trim() && name.trim() && phone.trim() && email.trim() && content.trim() && message.trim()) {
+                    $.post('/message/', message, function (data) {
+                        if (data.data == "success") {
+                            alert("留言成功");
+                        }
+                    })
+                }
+                else {
+                    alert("请正确填写下列字段!");
+                }
+            } else {
+                alert("验证码错误");
+            }
+
+        };
+        function reset() {
+            document.getElementById("txtDW22222").value = "";
+            document.getElementById("txtName22222").value = "";
+            document.getElementById("txtTel22222").value = "";
+            document.getElementById("txtEmail22222").value = "";
+            document.getElementById("txtMsg").value = "";
+            document.getElementById("txtcode").value = "";
+        };
+    </script>
+{% endblock %}

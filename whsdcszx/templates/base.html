@@ -1,0 +1,129 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type">
+    <title>首页-{{ profile.company_name }}</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta name="description" content="{{ profile.company_name }}">
+    <meta name="keywords" content="{{ profile.company_name }}">
+    {% load static %}
+    <!-- Bootstrap core CSS -->
+
+    <link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet" type="text/css">
+    <link href="{% static "css/css.css" %}" rel="stylesheet" type="text/css">
+    <script src="{% static "js/jquery-3.2.0.min.js " %}" type="text/javascript"></script>
+    <script src="{% static "js/photolb_dolphin.js" %}" type="text/javascript"></script>
+</head>
+<body>
+
+<div id="box">
+    <!--head -->
+    <div class="header">
+        <div class="logo">
+            <a href="/">
+                <img src="{% static "images/logo.png" %}">
+            </a>
+        </div>
+        <div class="home">
+
+
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div style="padding: 0px;margin-bottom:8px;">
+        <div class="dropdownmenu_dolphin" style="z-index:1000;">
+            <div id="dorpmenu_dolphin0" class="dorpmenu_dolphin" style="width:143px;">
+                <a href="/" class="dorpmenu_dolphin" id="dorpmenu0"
+                   style="width:143px;">网站首页</a>
+            </div>
+            <div id="dorpmenu_dolphin1" class="dorpmenu_dolphin">
+                <a href="/profile" class="dorpmenu_dolphin" id="dorpmenu1">公司简介</a>
+            </div>
+            <div id="dorpmenu_dolphin2" class="dorpmenu_dolphin">
+                <a href="/news" class="dorpmenu_dolphin" id="dorpmenu2">新闻资讯</a>
+            </div>
+
+            <div id="dorpmenu_dolphin3" class="dorpmenu_dolphin">
+                <a href="/business" class="dorpmenu_dolphin" id="dorpmenu3">业务范围</a>
+            </div>
+            <div id="dorpmenu_dolphin4" class="dorpmenu_dolphin">
+                <a href="/project" class="dorpmenu_dolphin" id="dorpmenu4">工程业绩</a>
+            </div>
+            <div id="dorpmenu_dolphin5" class="dorpmenu_dolphin">
+                <a href="/message" class="dorpmenu_dolphin" id="dorpmenu5">留言中心</a>
+            </div>
+            <div id="dorpmenu_dolphin6" class="dorpmenu_dolphin">
+                <a href="/contact_us" class="dorpmenu_dolphin" id="dorpmenu3">联系我们</a>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="slides_container" style="width:1005px; margin:0 auto;">
+
+
+        <div id="imgADPlayer"
+             style="display: block; width: 1005px; height: 260px; position: relative; overflow: hidden; margin: 0px;"><a
+                href="" title="图片三"
+                style="display: block; text-decoration: none; width: 1005px; height: 260px; &quot;) center center no-repeat;"></a>
+            <ul style="margin:0;width:1005px;position:absolute;z-index:999;right:0px;FILTER:Alpha(Opacity=80,FinishOpacity=80, Style=1);overflow: hidden;bottom:-1px;height:14px; border-right:0px solid #fff;">
+                <li style="margin:0;list-style-type: none; margin:0;padding:0; float:right;"><span
+                        onmouseover="PImgPlayer.mouseOver(this);" onmouseout="PImgPlayer.mouseOut(this);"
+                        style="clear:both; display:block; width:23px;line-height:14px; font-size:10px; FONT-FAMILY:&#39;宋体&#39;; opacity: 0.6;border:1px solid #fff;border-right:0;border-bottom:0;color:#fff;text-align:center; cursor:pointer; background:#000;"
+                        onclick="PImgPlayer.play(2);return false;" herf="javascript:;" title="图片二">3</span></li>
+                <li style="margin:0;list-style-type: none; margin:0;padding:0; float:right;"><span
+                        onmouseover="PImgPlayer.mouseOver(this);" onmouseout="PImgPlayer.mouseOut(this);"
+                        style="clear:both; display:block; width:23px;line-height:14px; font-size:10px; FONT-FAMILY:&#39;宋体&#39;; opacity: 0.6;border:1px solid #fff;border-right:0;border-bottom:0;color:#fff;text-align:center; cursor:pointer; background:#ff0000;"
+                        onclick="PImgPlayer.play(1);return false;" herf="javascript:;" title="图片三">2</span></li>
+                <li style="margin:0;list-style-type: none; margin:0;padding:0; float:right;"><span
+                        onmouseover="PImgPlayer.mouseOver(this);" onmouseout="PImgPlayer.mouseOut(this);"
+                        style="clear:both; display:block; width:23px;line-height:14px; font-size:10px; FONT-FAMILY:&#39;宋体&#39;; opacity: 0.6;border:1px solid #fff;border-right:0;border-bottom:0;color:#fff;text-align:center; cursor:pointer; background:#000;"
+                        onclick="PImgPlayer.play(0);return false;" herf="javascript:;" title="图片一">1</span></li>
+            </ul>
+        </div>
+
+        {% for c in carousel %}
+            <div class="picFit">
+                <script> PImgPlayer.addItem("图片{{ forloop.counter }}", "/", "{{ c.image.url }}"); </script>
+
+            </div>
+        {% endfor %}
+
+        <script> PImgPlayer.init("imgADPlayer", 1005, 260);</script>
+    </div>
+
+
+</div>
+<div class="clear"></div>
+
+<div id="main">
+
+
+    <div style="clear:both;"></div>
+    {% block content %}
+    {% endblock %}
+</div>
+<!--底部开始 -->
+<div class="clear"></div>
+<div class="footer">
+    <p align="center"></p>
+    <p align="center">
+        首页 |&nbsp;公司介绍 |&nbsp; 业务范围 | 联系我们
+    </p>
+    <p align="center">
+        {{ profile.company_name }}&nbsp; &nbsp;版权所有 &nbsp;&nbsp;&nbsp; 网站备案/许可证号:{{ profile.ibc_num }}&nbsp;
+    </p>
+    <p align="center">
+        联系电话：{{ profile.telephone }}&nbsp; 手机：{{ profile.phone_number }}&nbsp; 传真：{{ profile.fax }}&nbsp; &nbsp;&nbsp;&nbsp;
+        邮编:{{ profile.postcode }}
+    </p>
+    <p align="center">
+        &nbsp;联系地址：{{ profile.address }}&nbsp;&nbsp;
+    </p>
+    <p>
+        &nbsp;&nbsp;
+    </p>
+</div>
+
+
+</body>
+</html>

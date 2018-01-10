@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    <div id="main">
+
+
+        <div id="left">
+
+            <div>
+                <div style="width:248px;height:43px;line-height:43px;color :#5A6A6A;font-size:14px;">
+                    <span style="margin-left:20px;font-weight:bold;">公司简介</span><a href="/profile"
+                                                                                   style="float:right;width:50px;height:43px;display:block;"> </a>
+                </div>
+                <div class="div7 suo company">
+                    <ul>
+
+
+                        <li class="bg"><a href="/profile">中心简介</a></li>
+
+                        <li class="bg"><a href="/profile">组织机构</a></li>
+
+                        <li class="bg"><a href="/profile">经营理念</a></li>
+
+                        <li class="bg"><a href="/business">业务范围</a></li>
+
+                        <li class="bg"><a href="/zizhi">企业资质</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div>
+                <div style="width:248px;height:43px;line-height:43px;color :#5A6A6A;font-size:14px;">
+                    <span style="margin-left:20px;font-weight:bold;">业务范围</span>&nbsp;<span style="font-size:12px;">Business </span><a
+                        href="/business" style="float:right;width:50px;height:43px;display:block;"> </a>
+                </div>
+                <div class="div Services">
+                    <ul>
+                        {% for b in business %}
+                            <li class="bg"><a href="/business/{{ b.id }}">{{ b.type }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+
+            <div style="width:248px;height:43px;line-height:43px;color :#6A6A6A;font-size:14px;">
+                <span style="margin-left:20px;font-weight:bold;">联系我们</span>&nbsp;<span style="font-size:12px;">Contact us</span><a
+                    href="/contact_us" style="float:right;width:50px;height:43px;display:block;"> </a>
+            </div>
+            <div class="div qq" style="padding-top:8px;">
+                <p>
+                    <span style="font-size:16px;"><strong>{{ profile.company_name }}</strong></span>
+                </p>
+                <p>
+                    <span style="font-size:16px;"></span>地址：{{ profile.address }}&nbsp;
+                </p>
+                <p>
+                    手机：{{ profile.phone_number }}
+                </p>
+                <p>
+                    电话：{{ profile.telephone }}
+                </p>
+                <p>
+                    传真：{{ profile.fax }}
+                </p>
+                <p>
+                    网址：<a href="http://{{ profile.url }}">{{ profile.url }}</a>
+                </p>
+
+            </div>
+
+        </div>
+        <div id="right">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                   style="height: 43px;">
+                <tbody>
+                <tr>
+                    <td width="3%">
+                    </td>
+                    <td width="16%" style="color:#6A6A6A;; font-size: 14px; line-height:43px;" valign="middle">&nbsp;<b>中心简介</b>
+                    </td>
+                    <td style="font-size:12px;" width="80%" height="20" class="mdc">&nbsp;&nbsp;&nbsp;&nbsp;您所在的位置：<a
+                            href="/" class="tt">首页</a> &gt; &gt; 企业资质&nbsp;
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+            <div id="wz1" style="border: #cccccc 1px solid;min-height:505px;">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+
+                    <tr>
+                        <td valign="top" style="padding:5px; line-height: 25px; color: #666;">
+                            <div class="zizhi">
+                                <ul style="padding-left:10px;">
+
+                                    {% for foo in zizhi_list %}
+                                        <li class="cp01left">
+                                            <a href="{{ foo.image.url }}" rel="lightbox"> <img
+                                                    src="{{ foo.image.url }}" width="190" height="150"
+                                                    title="点击图片放大"> <em>{{ foo.name }}</em>
+                                            </a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                                <div class="clear"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+
+    </div>
+{% endblock %}

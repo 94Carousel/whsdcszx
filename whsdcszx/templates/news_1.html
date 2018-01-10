@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+{% block content %}
+
+    {% load static %}
+    {% load pagetag %}
+    <div id="main">
+
+
+        <div id="left">
+
+            <div>
+                <div style="width:248px;height:43px;line-height:43px;color :#5A6A6A;font-size:14px;">
+                    <span style="margin-left:20px;font-weight:bold;">新闻分类</span><a href="/news"
+                                                                                   style="float:right;width:50px;height:43px;display:block;"> </a>
+                </div>
+                <div class="div7 suo company">
+                    <ul>
+
+
+                        <li class="bg"><a href="/news_1">行业新闻</a></li>
+
+                        <li class="bg"><a href="/news_2">公司新闻</a></li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div>
+                <div style="width:248px;height:43px;line-height:43px;color :#5A6A6A;font-size:14px;">
+                    <span style="margin-left:20px;font-weight:bold;">业务范围</span>&nbsp;<span style="font-size:12px;">Business </span><a
+                        href="/business" style="float:right;width:50px;height:43px;display:block;"> </a>
+                </div>
+                <div class="div Services">
+                    <ul>
+
+                        {% for b in business_list %}
+                            <li class="bg"><a href="/business/{{ b.id }}">{{ b.type }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+
+            <div style="width:248px;height:43px;line-height:43px;color :#6A6A6A;font-size:14px;">
+                <span style="margin-left:20px;font-weight:bold;">联系我们</span>&nbsp;<span style="font-size:12px;">Contact us</span><a
+                    href="/contact_us" style="float:right;width:50px;height:43px;display:block;"> </a>
+            </div>
+            <div class="div qq" style="padding-top:8px;">
+                <p>
+                    <span style="font-size:16px;"><strong>{{ pprofile.company_name }}</strong></span>
+                </p>
+                <p>
+                    <span style="font-size:16px;"></span>地址：{{ profile.address }}&nbsp;
+                </p>
+                <p>
+                    手机：{{ profile.phone_number }}
+                </p>
+                <p>
+                    电话：{{ profile.telephone }}
+                </p>
+                <p>
+                    传真：{{ profile.fax }}
+                </p>
+                <p>
+                    网址：<a href="http://{{ profile.url }}">{{ profile.url }}</a>
+                </p>
+
+            </div>
+
+        </div>
+        <div id="right">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                   style="   height: 43px;">
+                <tbody>
+                <tr>
+                    <td width="3%">
+                    </td>
+                    <td width="16%" style="color:#6A6A6A;; font-size: 14px; line-height:43px;" valign="middle">&nbsp;<b>新闻中心</b>
+                    </td>
+                    <td style="font-size: 12px;" width="80%" height="20" class="mdc">&nbsp;&nbsp;&nbsp;&nbsp;您所在的位置：<a
+                            href="/" class="tt">首页</a> &gt; &gt; 新闻中心&nbsp;
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+            <div id="wz1" style="border: #cccccc 1px solid;min-height:505px;">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+
+                    <tr>
+                        <div class="newsg">
+                            <ul>
+                                {% for foo in news_list %}
+                                    <li><span class="time">{{ foo.date|date:"Y-m-d" }}</span>
+                                        <span>&nbsp;&nbsp;·&nbsp;<a
+                                                href="/news/{{ foo.id }}">{{ foo.title }}</a></span>
+                                    </li>
+                                {% endfor %}
+
+                            </ul>
+                            <nav aria-label="Page navigation" style="float: right">
+                                <ul class="pagination">
+                                    {% if news_list.has_previous %}
+                                        <li>
+                                            <a href="?page={{ news_list.previous_page_number }}" aria-label="Previous">
+                                                <span aria-hidden="true">&laquo;</span>
+                                            </a>
+                                        </li>
+                                    {% endif %}
+
+                                    {% for pg in news_list.paginator.page_range %}
+                                        {% circle_page news_list.number pg %}
+                                    {% endfor %}
+
+                                    {% if news_list.has_next %}
+                                        <li>
+                                            <a href="?page={{ news_list.next_page_number }}" aria-label="Next">
+                                                <span aria-hidden="true">&raquo;</span>
+                                            </a>
+                                        </li>
+                                    {% endif %}
+                                </ul>
+                            </nav>
+
+                            {#			 <div style="text-align:right; padding-right:10px;">共有{{ sum }}记录，分1页，当前页1，每页显示15条记录#}
+                            {#                <font face="webdings">7</font> 第<strong>[1]</strong> 页 <font face="webdings">8</font></div>#}
+                            {#				  </div>#}
+                        </div>
+
+
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <div style="clear:both;"></div>
+
+    </div>
+{% endblock %}

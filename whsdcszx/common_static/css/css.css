@@ -1,0 +1,815 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, form, fieldset, legend, img {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #666;
+    font-size: 12px;
+    background: url('') repeat-x top;
+}
+
+em {
+    font-style: normal;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    border: none;
+    line-height: 0;
+    font-size: 0;
+}
+
+.clear {
+    clear: both;
+    line-height: 0;
+    font-size: 0;
+}
+
+.wrap {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 118px;
+    overflow: hidden;
+}
+
+.logo {
+    width: 640px;
+    float: left;
+    padding-top: 32px;
+}
+
+.home {
+    width: 330px;
+    overflow: hidden;
+    float: right;
+    margin-top: 5px;
+}
+
+.add {
+    background: url(home_bg.png) no-repeat;
+    width: 189px;
+    height: 22px;
+    line-height: 22px;
+    float: right;
+}
+
+.add a {
+    color: #fff;
+    padding-left: 11px;
+}
+
+.tel {
+    padding-top: 14px;
+    float: right;
+}
+
+.nav {
+    background: url(nav_Bg.gif) no-repeat;
+    width: 980px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.nav li {
+    float: left;
+    text-align: center;
+    padding: 0 11px;
+}
+
+.nav li a {
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    width: 76px;
+}
+
+.nav li a:hover {
+    text-decoration: none;
+}
+
+.nav .one a {
+    background: url(nav_hover.gif) no-repeat center center;
+    width: 70px;
+    height: 40px;
+    color: #333;
+}
+
+.nav .two a {
+    width: 70px;
+    height: 40px;
+}
+
+.nav ul {
+    float: left;
+}
+
+.nav .time {
+    float: right;
+    color: #ccc;
+    padding-right: 10px;
+}
+
+.banner, .banner1 {
+    background: #fff;
+    width: 714px;
+    height: 326px;
+    border: solid 1px #f0f0f0;
+    padding: 4px 0 0 4px;
+    float: left;
+}
+
+.Services {
+}
+
+.Services ul {
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.Services h3, .about h3, .speed h3, .marry h3, .need h3, .case h3, .hig h3, .hig2 h3, .hig3 h3, .hig4 h3, .qq h3, .online h3 {
+    font-size: 14px;
+    color: #333;
+    font-family: "Microsoft YaHei";
+    line-height: 30px;
+    font-weight: normal;
+    padding: 2px 0 0 9px;
+}
+
+.Services h3 span, .about h3 span, .need h3 span, .case h3 span, .qq h3 span {
+    color: #ccc;
+    font-size: 12px;
+    padding-left: 7px;
+}
+
+.Services li {
+    width: 200px;
+    border-bottom: solid 1px #f5f5f5;
+    text-indent: 9px;
+    line-height: 27px;
+    margin: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+.Services li a {
+    color: #666;
+    display: block;
+    width: 200px;
+    hite-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+.Services li a:hover {
+    text-decoration: none;
+    color: #c00;
+}
+
+.Services li a span {
+    background: url(jiao.gif) no-repeat right center;
+    float: right;
+    width: 4px;
+    height: 8px;
+    margin-right: 9px;
+    margin-top: 8px;
+}
+
+/*.Services li a:hover span {*/
+    /*background: url("") no-repeat right center;*/
+/*}*/
+
+/*.Services .bg a {*/
+    /*background: url("") no-repeat left center;*/
+/*}*/
+
+.content {
+    margin-top: 10px;
+}
+
+.big {
+    width: 720px;
+    float: left;
+}
+
+.about {
+    width: 718px;
+    height: 210px;
+    /*background: url(about_bg.gif) repeat-x;*/
+    border: solid 1px #f1f1f1;
+    border-top: none;
+    margin-bottom: 10px;
+}
+
+.img, .image, .pic {
+    background: #fff;
+    float: left;
+    border: solid 1px #f0f0f0;
+    height: 159px;
+    padding: 5px 0 0 0px;
+    margin: 0 0 0 2px;
+    display: inline;
+}
+
+.txt {
+    width: 500px;
+    float: right;
+    margin: 0 auto;;
+    display: inline;
+    padding: 8px;
+}
+
+.txt p {
+    text-indent: 24px;
+    line-height: 23px;
+}
+
+.txt a, .look a {
+    display: block;
+    width: 70px;
+    height: 20px;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 20px;
+    color: #999;
+    float: right;
+}
+
+.txt a:hover, .look a:hover {
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+.speed, .marry, .hig, .hig2, .hig3, .hig4 {
+    height: 227px;
+    width: 370px;
+    border-top: none;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.speed h3 a, .marry h3 a, .need h3 a, .case h3 a {
+    color: #999;
+    font-family: "SimSun";
+    font-size: 12px;
+    float: right;
+    margin-right: 10px;
+}
+
+.speed h3 em, .marry h3 em, .need h3 em, .case h3 em {
+    float: left;
+}
+
+.image {
+    width: 144px;
+    height: 85px;
+    padding: 4px 0 0 4px;
+    margin-top: 3px;
+}
+
+.table {
+    width: 170px;
+    float: right;
+    margin-right: 10px;
+    display: inline;
+    margin-top: 7px;
+}
+
+.table p {
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.table td a {
+    color: #666;
+    line-height: 22px;
+}
+
+.care {
+    margin-top: 4px;
+}
+
+.care li, .need li, .case li, .pis li {
+    /*background: url(dian.gif) no-repeat left center;*/
+    padding-left: 10px;
+    line-height: 22px;
+    margin-left: 14px;
+}
+
+.care li a, .need li a, .case li a, .pis li a {
+    color: #666;
+}
+
+.marry {
+    float: right;
+}
+
+.small {
+    width: 248px;
+    float: right;
+}
+
+.need {
+    /*background: url(need.gif) repeat-x;*/
+    height: 149px;
+    border: solid 1px #f1f1f1;
+    border-top: none;
+}
+
+.need li, .case li {
+    line-height: 24px;
+}
+
+.case {
+    /*background: url(case.gif) repeat-x;*/
+    height: 289px;
+    margin-top: 10px;
+}
+
+.bottom {
+    width: 750px;
+    float: left;
+    margin-top: 10px;
+}
+
+.hig, .hig2, .hig3, .hig4 {
+    height: 196px;
+    width: 370px;
+    position: relative;
+    float: left;
+}
+
+.hig2, .hig4 {
+    float: right;
+}
+
+.pic {
+    width: 144px;
+    height: 145px;
+}
+
+.pis {
+    float: left;
+    padding-top: 5px;
+}
+
+.look a {
+    position: absolute;
+    left: 172px;
+    top: 163px;
+}
+
+.bottomrig {
+    /*background: url(QQ.gif) no-repeat;*/
+    width: 248px;
+    height: 404px;
+    float: right;
+    margin-top: 10px;
+    _margin-top: -10px;
+}
+
+.qq {
+    height: 178px;
+}
+
+.red {
+    color: #c00;
+    line-height: 24px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.qq p {
+    width: 225px;
+    padding-left: 10px;
+    color: #333;
+    line-height: 24px;
+}
+
+.online h3 {
+    padding: 7px 0 0 9px;
+    color: #666;
+    font-size: 12px;
+}
+
+.online li {
+    float: left;
+    padding-right: 30px;
+}
+
+.online li a {
+    color: #666;
+}
+
+.online ul {
+    padding: 12px 0 0 22px;
+    height: auto;
+}
+
+.online span {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    _margin: 10px 0 2px;
+}
+
+.footer {
+    width: 1005px;
+    height: auto;
+    background: #f0f0f0;
+    margin: 0 auto;
+    color: #999;
+    padding-top: 7px;
+}
+
+.footer a {
+    color: #999;
+}
+
+.footer p {
+    text-align: center;
+    line-height: 24px;
+}
+
+/*list*/
+.banner1 {
+    width: 998px;
+    height: 258px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.left {
+    width: 250px;
+    float: left;
+}
+
+.suo {
+    padding: 5px;
+}
+
+.company {
+    background: #e4e4e4;
+    margin-bottom: 10px;
+}
+
+.company ul {
+    background: #fff;
+    padding-top: 10px;
+}
+
+.company li {
+    padding-left: 15px;
+}
+
+.company li a {
+    /*background: url(jiao.gif) no-repeat left center;*/
+    padding-left: 10px;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+}
+
+.company li a:hover {
+    text-decoration: none;
+}
+
+.company .bg {
+    background: #f3f3f3;
+}
+
+.company .bg a {
+    /*background: url(jiao_hover.gif) no-repeat left center;*/
+}
+
+.right {
+    width: 718px;
+    float: right;
+    border: solid 1px #f3f3f3;
+    min-height: 888px;
+    _height: 888px;
+}
+
+.rightnews {
+    width: 718px;
+    float: right;
+    border: solid 1px #f3f3f3;
+    min-height: 700px;
+    _height: 700px;
+}
+
+.right h3 {
+    /*background: url(right_hbg.gif) repeat-x;*/
+    height: 35px;
+    line-height: 35px;
+    text-align: right;
+    padding-right: 9px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.right h3 a, .list li a {
+    color: #666;
+}
+
+.list {
+    padding: 28px 69px 0 31px;
+}
+
+.list li {
+    font-size: 14px;
+    line-height: 28px;
+    /*background: url() no-repeat left center;*/
+    padding-left: 15px;
+}
+
+.list li span {
+    float: right;
+    color: #ccc;
+}
+
+.page {
+    text-align: center;
+    padding: 55px 0 56px;
+}
+
+#box {
+    margin: 0 auto;
+    width: 1003px;
+}
+
+#nav {
+    width: 100%;
+    /*background: url(menu_bg.jpg);*/
+    height: 38px;
+}
+
+#nav a {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+#nav a:hover {
+    text-decoration: none;
+}
+
+.nav_a1 {
+    width: 110px;
+}
+
+.nav_a {
+    width: 130px;
+}
+
+#main {
+    width: 1005px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#left {
+    float: left;
+    width: 248px;
+}
+
+#right {
+    float: right;
+    width: 748px;
+}
+
+.div {
+    border: #e3e3e3 1px solid;
+    width: 246px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.div2 {
+    border: #e3e3e3 1px solid;
+    width: 746px;
+    height: auto;
+    margin-bottom: 10px;
+    clear: both;
+    padding: 0px;
+}
+
+.div3 {
+    border: #e3e3e3 1px solid;
+    width: 368px;
+    height: auto;
+    margin-bottom: 10px;
+    padding: 0px;
+    background-color: #F5F5F5;
+}
+
+.div6 {
+    min-height: 90px;
+    border: #e3e3e3 1px solid;
+    width: 246px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.div7 {
+    width: 238px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.mdc {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.mdc a {
+    text-decoration: none;
+    color: #666
+}
+
+a {
+    color: #666;
+}
+
+b {
+    font-weight: bold;
+    color: #C00;
+}
+
+.newsg {
+    width: 700px;
+}
+
+.newsg ul {
+    list-style: none;
+}
+
+.newsg ul li {
+    width: 700px;
+    border-bottom: #CCCCCC dotted 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    line-height: 30px;
+}
+
+.time {
+    float: right;
+}
+
+.zizhi {
+    width: 720px;
+}
+
+.zizhi ul {
+    list-style: none;
+}
+
+.zizhi ul li {
+    float: left;
+    width: 200px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.zizhi ul li img {
+    padding: 5px;
+    border: #CCCCCC solid 1px;
+}
+
+.cp01left {
+    width: 210px;
+}
+
+/* ============µ¼º½============== */
+.dropdownmenu_dolphin {
+    clear: both;
+    padding: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    color: #000;
+    height: 38px;
+    height: 38px;
+
+}
+
+.dorpmenu_dolphin {
+    float: left;
+    color: #fff;
+    width: 143px;
+    height: 38px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    line-height: 38px;
+}
+
+.dorpmenu_dolphin_current {
+    float: left;
+    color: #fff;
+    width: 143px;
+    height: 38px;
+    text-align: center;
+
+}
+
+a.dorpmenu_dolphin:link, a.dorpmenu_dolphin:visited, a.dorpmenu_dolphin:active {
+    display: block;
+    color: #6090c0;
+    text-decoration: none;
+    height: 38px;
+    font-size: 14px;
+
+}
+
+a.dorpmenu_dolphin:hover {
+    display: block;
+    color: #ebe3d5;
+    text-decoration: none;
+    height: 38px;
+    font-size: 14px;
+}
+
+a.dorpmenu_dolphin_current {
+    display: block;
+    color: #ebe3d5;
+    text-decoration: none;
+    height: 38px;
+    font-size: 14px;
+    line-height: 38px;
+}
+
+div.subdorpmenu_dolphin {
+    display: none;
+    position: absolute;
+}
+
+div.subdorpmenu_dolphin ul {
+    color: #fff;
+    background-color: #6090C0;
+    margin-left: -3px;
+    margin-left: 0px;
+
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 5px;
+}
+
+a.subdorpmenu_dolphin:link, a.subdorpmenu_dolphin:visited, a.subdorpmenu_dolphin:active {
+    text-align: center;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0px;
+    padding: 2px 25px;
+}
+
+a.subdorpmenu_dolphin:hover {
+    color: #7E725E;
+    text-decoration: none;
+    font-size: 13px;
+
+    background: #A7D1EA;
+}
+
+#banner {
+    margin: 2px auto;
+    margin-bottom: 10px;
+}
+
+.qq {
+    height: auto;
+}
+
