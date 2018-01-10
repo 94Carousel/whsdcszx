@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="application/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+<div id="right" style="color:#000000">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0"
+           style="height: 43px;">
+        <tbody>
+        <tr>
+            <td width="3%">
+            </td>
+            <td width="16%" style="color:#6A6A6A;; font-size: 14px; line-height:43px;" valign="middle">&nbsp;<b>留言中心</b>
+            </td>
+            <td width="80%" height="20" class="mdc">&nbsp;&nbsp;&nbsp;&nbsp;您所在的位置：<a href="index.html"
+                                                                                      class="tt">首页</a> &gt; &gt; 留言中心&nbsp;
+            </td>
+        </tr>
+
+        </tbody>
+    </table>
+    <div id="wz1" style="border: #cccccc 1px solid;min-height:505px;">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tbody>
+
+            <tr>
+                <td valign="top" style="padding: 10px; line-height: 25px; color: #666;">
+                    {#                    <form name="form1" method="post"#}
+                    {#                          action="http://www.whsdcszx.com/admin/guestbook/savemsg.asp?mnid=4877"#}
+                    {#                          onsubmit="return checkform();" target="_top">#}
+                    {##}
+                    {#                    </form>#}
+                </td>
+            </tr>
+            <tr>
+                <td width="16%" height="25" align="center" bgcolor="ffffff"><font color="#FF0000">*</font>留言主题：</td>
+                <td bgcolor="ffffff"><input maxlength="50" size="60" name="txtDW" id="txtDW22222"></td>
+            </tr>
+            <tr>
+                <td width="16%" height="25" align="center" bgcolor="ffffff"><font color="#FF0000">*</font>姓　　名：</td>
+                <td bgcolor="ffffff"><input maxlength="50" size="60" name="txtName" id="txtName22222" value=""></td>
+            </tr>
+            <tr>
+                <td width="16%" height="25" align="center" bgcolor="ffffff"><font color="#FF0000">*</font>联系电话：</td>
+                <td bgcolor="ffffff"><input maxlength="50" size="60" name="txtTel" id="txtTel22222" value=""></td>
+            </tr>
+            <tr>
+                <td width="16%" height="25" align="center" bgcolor="ffffff"><font color="#FF0000">*</font>电子邮件：</td>
+                <td bgcolor="ffffff"><input maxlength="50" size="60" name="txtEmail" id="txtEmail22222"></td>
+            </tr>
+            <tr>
+                <td width="16%" height="25" align="center" bgcolor="ffffff"><font color="#FF0000">*</font>留言内容：</td>
+                <td bgcolor="ffffff"><textarea name="txtMsg" id="txtMsg" rows="8" cols="60"
+                ></textarea>
+                </td>
+            </tr>
+            {#				 <tr>#}
+            {#                  <td width="16%" height="25" align="center" bgcolor="ffffff">验证码：</td>#}
+            {#                  <td bgcolor="ffffff"><input name="txtcode" type="text" id="txtcode" style="border:1px #7F9DB9 solid" size="6" maxlength="4">#}
+            {#                           <img src="jhbj"></td>#}
+            {#				 </tr>#}
+            <tr>
+                <td colspan="2" bgcolor="ffffff" height="25">
+                    <input name="Ver" id="Ver" type="hidden" value="cn">
+                    {#				<input name="IsChecked" id="IsChecked" type="hidden" value="False">#}
+                    {#				<input name="acction" id="acction" type="hidden" value="add">#}
+                    <input name="Submit3" type="submit" style="width:60px;height:24px; margin-left: 100px;" value="发表"
+                           onclick="commit()">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input name="Submit4" type="reset" style="width:60px;height:24px" value="重写">
+                </td>
+            </tr>
+
+
+            <tr>
+                <td height="10">
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+<script type="application/javascript">
+    function commit() {
+        var title = document.getElementById("txtDW22222").value
+        var name = document.getElementById("txtName22222").value
+        var phone = document.getElementById("txtTel22222").value
+        var email = document.getElementById("txtEmail22222").value
+        var content = document.getElementById("txtMsg").value
+        var message = {"title": title, "name": name, "phone": phone, "email": email, "content": content}
+        $.post('/', message, function (data) {
+            console.log(data);
+        })
+    }
+</script>
+</html>
