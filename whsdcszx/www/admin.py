@@ -17,16 +17,17 @@ admin_site = MyAdminSite(name='management')
 class QalityImageAdmin(admin.ModelAdmin):
     list_display = ('name', 'image_data')
     readonly_fields = ('image_data',)
+    list_display_links = ('name', 'image_data')
 
     def image_data(self, obj):
-        return mark_safe(u'<img src="%s" width="200px" />' % obj.image.url)
+        return mark_safe(u'<img src="%s" width="250px" />' % obj.image.url)
 
     image_data.short_description = '资质图片'
 
 
 class CarouselImageAdmin(admin.ModelAdmin):
     list_display = ('image_data',)
-    readonly_fields = ('image_data',)
+    list_display_links = ['image_data']
 
     def has_add_permission(self, request):
         return False
