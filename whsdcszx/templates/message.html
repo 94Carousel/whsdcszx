@@ -164,7 +164,7 @@
                 var email = document.getElementById("txtEmail22222").value
                 var content = document.getElementById("txtMsg").value
                 var message = {"title": title, "name": name, "phone": phone, "email": email, "content": content}
-                if (title.trim() && name.trim() && phone.trim() && email.trim() && content.trim() && message.trim()) {
+                if (title.trim() && name.trim() && phone.trim() && email.trim() && content.trim()) {
                     $.post('/message/', message, function (data) {
                         if (data.data == "success") {
                             alert("留言成功");

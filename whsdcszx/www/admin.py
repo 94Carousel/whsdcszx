@@ -88,6 +88,9 @@ class ProfileAdmin(admin.ModelAdmin):
         return False
 
 
+
+admin.site.site_header = '后台管理'
+admin.site.site_title = '武汉水电测试中心'
 # Register your models here.
 
 admin.site.register([Business])
